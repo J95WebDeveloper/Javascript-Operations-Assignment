@@ -1,0 +1,43 @@
+Q2. Describe the categorization of operators in javascript based on their functionality.
+    provide examples for each category.
+
+Answer - 
+
+Categorization of Operators - 
+
+* Arithmetic Operators: These include addition (+), subtraction (-), multiplication (*), division (/), modulus (%), and exponentiation 
+                        (**). They operate on numerical values to perform basic mathematical calculations.
+
+                        ex - let x = 10
+                             let y = 20
+                             let z = x + y;
+
+* Increment and Decrement Operators: These operators (++, --) are used to increase or decrease the value of variables by one, either 
+                                     before or after their use in expressions.
+
+                                     ex - let x = 5;
+                                          x++;
+                                          --x;
+
+* Assignment Operator: The assignment operator (=) assigns a value to a variable. Compound assignment operators 
+                       (like +=, -=, *=, /=, %=, **=) combine arithmetic operations with assignment.
+
+                       ex - let x = 5;
+                            x += 2
+
+* Comparison Operators: These operators (==, ===, !=, !==, >, <, >=, <=) compare two values and return a Boolean 
+                        (true or false) based on the comparison result.
+
+                        ex - let x = 5;
+                             let y = 7;
+                             console.log(x == y)
+
+* Logical Operators: Logical operators (&&, ||, !) are used to combine conditional statements and return true or false. && (AND) 
+                     returns true if both operands are true. || (OR) returns true if at least one operand is true. ! (NOT) returns 
+                     the opposite Boolean value of the operand.
+
+                     ex - let x = [7 , 2 , 5, 4]
+                          console.log( 7 > 2 && 5 > 4)
+
+* Unary Operators: These operate on a single operand to perform various actions. Examples include unary plus (+) and unary 
+                   negation (-), which convert values to numbers and change their signs, respectively

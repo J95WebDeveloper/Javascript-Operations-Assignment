@@ -1,0 +1,19 @@
+Q4. Discuss the precedence and associativity of operators in javascript. why is understanding these concepts important?
+
+Answer - 
+
+Precedence Operator -  Operator precedence determines the order in which different operators are evaluated in a complex expression. 
+                       Operators with higher precedence are evaluated before operators with lower precedence. This is similar to 
+                       the order of operations (PEMDAS/BODMAS) in arithmetic.
+                       ex -
+                           let result = 3 + (4 * 2);
+                           let result = 3 + 8;
+                           let result = 11;
+
+Associativity Operator - Operator associativity defines the direction in which operators of the same precedence level are processed. 
+                         There are two types of associativity:
+                         Left-to-right (Left Associativity): Operators are evaluated from left to right.
+                         Right-to-left (Right Associativity): Operators are evaluated from right to left.
+                         ex - 
+                         let a = 1, b = 2, c = 3;
+                             a = b = c;

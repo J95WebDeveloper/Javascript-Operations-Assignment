@@ -1,0 +1,34 @@
+Q3. Differentiate between unary, binary and ternary operators in javascript. Give examples
+    of each.
+
+Answer - 
+
+Difference between - 
+
+Unary Operator - Unary Operator is an operator that operates on a single operand, meaning it affects only one value or variable. 
+                 Unary operators are commonly used in programming languages to perform various operations such as changing the 
+                 sign of a value, incrementing or decrementing a value, or performing logical negation.
+                 ex:
+                    Unary minus (-x)
+                    Increment (++)
+                    Decrement (–)
+                    Logical NOT (!x)
+
+Binary Operator - Binary Operator is an operator that operates on two operands, meaning it affects two values or variables. 
+                  Binary operators are commonly used in programming languages to perform various operations such as arithmetic 
+                  operations, logical operations, and bitwise operations.
+                  ex:
+                    Addition (+)
+                    Subtraction (-)
+                    Multiplication (*)
+                    Division (/)
+                    Assignment (=)
+                    Logical AND (&&)
+                    Logical OR (||)
+
+Ternary Operator - These operators require three operands. In JavaScript, there is one operator that falls under this category – 
+                   the conditional operator. In other languages, perhaps, there could be more examples.
+                   ex -
+                    the conditional expression
+                    the truthy expression which gets evaluated if the condition is true
+                    the falsy expression which gets evaluated if the condition is false.
